@@ -1,0 +1,10 @@
+{
+  "scenario": "A Langflow build fails with 'Circular Dependency' error.",
+  "expected_steps": [
+    "Analyze the edge graph to find the cycle",
+    "Use update_flow to remove the edge causing the loop",
+    "Replace the loop with a Memory component if state is needed",
+    "Re-run build_flow"
+  ],
+  "common_failure": "The agent repeatedly calls build_flow without fixing the underlying graph structure."
+}

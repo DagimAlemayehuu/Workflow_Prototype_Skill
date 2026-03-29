@@ -1,0 +1,8 @@
+{
+  "scenario": "A user wants to change the LLM model from GPT-3.5 to GPT-4o on a running Langflow flow without modifying the original flow.",
+  "expected_steps": [
+    "get_flow to identify the Node ID of the LLM component",
+    "run_flow with the 'tweaks' parameter overriding the 'model_name' for that specific Node ID"
+  ],
+  "common_failure": "The agent tries to update_flow to change the model permanently instead of using dynamic tweaks."
+}

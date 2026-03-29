@@ -1,0 +1,11 @@
+{
+  "scenario": "A user wants to create a new Langflow flow for a RAG system and run it with a query.",
+  "expected_steps": [
+    "list_flows to check for existing flows",
+    "create_flow with RAG structure (Nodes and Edges)",
+    "build_flow using the new flow_id",
+    "get_build_status to wait for completion",
+    "run_flow with input_value and tweaks"
+  ],
+  "common_failure": "The agent tries to call run_flow immediately after create_flow without calling build_flow first."
+}
