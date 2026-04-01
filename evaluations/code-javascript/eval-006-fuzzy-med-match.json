@@ -1,0 +1,5 @@
+{
+  "name": "Fuzzy Search Validation",
+  "input": "Amoxacilin",
+  "expected_output": "Should match 'Amoxicillin' using Levenshtein distance < 3."
+}

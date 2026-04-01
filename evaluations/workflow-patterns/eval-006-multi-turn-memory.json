@@ -1,0 +1,5 @@
+{
+  "name": "Multi-turn Context Check",
+  "prompt": "I need Amoxicillin. [Next Turn] Is the medication I just asked for available?",
+  "expected_behavior": "Agent retrieves 'Amoxicillin' from memory and confirms availability via tool."
+}

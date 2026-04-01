@@ -25,7 +25,7 @@ Teaches architectural patterns for building n8n workflows. Provides structure, b
 
 ## File Count
 
-7 files, ~3,700 lines total
+8 files, ~3,800 lines total
 
 ## Priority
 
@@ -248,3 +248,9 @@ Use `search_templates` to find examples for your use case!
 ---
 
 **Part of**: n8n-skills repository
+0-20
+
+---
+
+**Part of**: n8n-skills repository
+art of**: n8n-skills repository

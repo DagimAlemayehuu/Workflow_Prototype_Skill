@@ -320,12 +320,13 @@ const value = $json.field;
 
 ## Evaluations
 
-**5 test scenarios** covering:
+**6 test scenarios** covering:
 1. Webhook body gotcha (most common mistake)
 2. Return format error (missing array wrapper)
 3. HTTP request with $helpers.httpRequest()
 4. Aggregation pattern with $input.all()
 5. Expression syntax confusion (using `{{}}`)
+6. Fuzzy matching logic (eval-006)
 
 Each evaluation tests skill activation, correct guidance, and reference to appropriate documentation files.
 

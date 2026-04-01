@@ -88,6 +88,8 @@ Master guide for proven architectural patterns in n8n.
 - Input: **Chat Trigger** or **Webhook**.
 - Output: **OpenAI Chat Model**, **Window Buffer Memory**, and various **Tools** (Calculator, Wikipedia, etc.).
 
+> **Deep Dive**: See [memory_management.md](memory_management.md) for a detailed guide on integrating persistent state and chat history.
+
 ---
 
 ## Golden Rules for "Perfect" Workflows
